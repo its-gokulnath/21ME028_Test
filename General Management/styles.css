@@ -1,0 +1,163 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color:goldenrod;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+.navbar {
+    background-color: #0080ff;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff4f4 !important;
+}
+
+.nav-link:hover {
+    color: #ccc !important;
+}
+
+header.jumbotron {
+    background:'logo.jpg' no-repeat center center;
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 12% 0;
+}
+
+header.jumbotron h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+header.jumbotron p {
+    font-size: 1.5rem;
+}
+
+header.jumbotron .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(135, 255, 155, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+footer {
+    background-color: #04c9fa;
+    color: #5cff64;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+form {
+    background-color: #6cffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(71, 52, 241, 0.1);
+}
+
+form .form-group {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#scrollTopBtn:hover {
+    background-color: #0056b3;
+}
